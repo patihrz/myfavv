@@ -11,7 +11,7 @@ export default function VaultLock({ onUnlock }: VaultLockProps) {
   const [error, setError] = useState(false);
   const [shake, setShake] = useState(false);
   const [clickSound, setClickSound] = useState(0);
-  const correctCode = '191125';
+  const correctCode = '191802';
 
   const handleNumberClick = (num: number) => {
     // Click sound effect (visual feedback)
@@ -153,10 +153,10 @@ export default function VaultLock({ onUnlock }: VaultLockProps) {
               Need a hint?
             </p>
             <p className="text-pink-400 text-base sm:text-lg lg:text-lg font-semibold">
-              Tanggal jadian kita
+              Kombinasi tanggal lahir kita
             </p>
             <p className="text-zinc-500 text-[10px] sm:text-xs lg:text-xs">
-              Format: DDMMYY (6 digits)
+              (6 digits)
             </p>
           </div>
         </div>

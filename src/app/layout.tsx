@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "thanks for loving mee <3",
-  description: "Nur Fadila Atmaja",
+  description: "Andilia Nurhayati",
 };
 
 export default function RootLayout({

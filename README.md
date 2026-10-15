@@ -38,7 +38,7 @@ npm start
 Edit di file `src/components/VaultLock.tsx`:
 
 ```tsx
-const correctCode = '191125'; // Ubah dengan password Anda
+const correctCode = '191802'; // Ubah dengan password Anda
 ```
 
 ### Mengubah Teks Animasi
@@ -46,7 +46,7 @@ const correctCode = '191125'; // Ubah dengan password Anda
 Edit sequence di file `src/components/ParticleAnimation.tsx`:
 
 ```tsx
-const sequence = ['3', '2', '1', 'FADILA', 'YOU', 'ARE', 'MY', 'LOVE'];
+const sequence = ['3', '2', '1', 'ANDILIA', 'YOU', 'ARE', 'MY', 'LOVE'];
 ```
 
 ### Menambahkan Musik

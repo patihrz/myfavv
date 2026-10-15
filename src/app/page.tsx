@@ -48,7 +48,7 @@ export default function Home() {
       {isStarted && (
         <ParticleAnimation
           key={`particle-${key}-${isStarted}`}
-          sequence={['3', '2', '1', 'FADILA', 'YOU', 'ARE', 'MY', 'LOVE']}
+          sequence={['3', '2', '1', 'ANDILIA', 'YOU', 'ARE', 'MY', 'LOVE']}
         />
       )}
 
